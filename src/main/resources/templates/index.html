@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<form th:action="@{/users/}" method="post">
+    <label>Number of users to display</label>
+    <br/>
+    <input id="limit" name="limit" type="number">
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
